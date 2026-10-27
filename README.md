@@ -67,7 +67,7 @@ Type or say what you ate ("2 eggs and sourdough toast with butter") and it logs 
 - The meal parser is measured against a 110-case test set: 90% item-level accuracy, and meals filed to the right slot (breakfast, lunch, dinner, snack) 96.6% of the time
 - Prompt changes are re-scored against the same test set, so improvements are measured, not guessed
 
-![Bite: Today, Edit Item, and dark mode](images/bite-meal-logging.jpg)
+![Bite: Today, Edit Item, and dark mode](images/bite-screens.jpg)
 
 the product definition, testing each build on my phone and writing up what broke, and deciding what's good enough to move forward.
 
