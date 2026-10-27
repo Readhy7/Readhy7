@@ -38,7 +38,7 @@ A nightly pipeline built with Claude Code and OpenRouter. It finds US sweepstake
 - Keeps personal details on my machine and out of the catalog
 - Leaves CAPTCHAs to a person; the software never solves them
 
-product rules, architecture decisions (for example, keeping personal data separate from the shared catalog), the budget guardrails, and the QA checks.
+I set the product rules, made the architecture decisions (for example, keeping personal data separate from the shared catalog), and set up the budget guardrails and QA checks.
 
 ![RaffleReady's stats view: every rate is shown with the number it was divided by](images/raffleready-stats.jpg)
 
@@ -56,7 +56,7 @@ Nine single-purpose dashboards (calendar, inbox, reminders, kitchen inventory, w
 
 ![Life Dashboard home screen (personal tiles hidden; sample kitchen item)](images/life-dashboard.jpg)
 
-deciding what each dashboard tracks and flags, and how it should look and behave on the wall screen.
+I decide what each dashboard tracks and flags, and how it should look and behave on the wall screen.
 
 ---
 
@@ -69,7 +69,7 @@ Type or say what you ate ("2 eggs and sourdough toast with butter") and it logs 
 
 ![Bite: Today, Edit Item, and dark mode](images/bite-screens.jpg)
 
-the product definition, testing each build on my phone and writing up what broke, and deciding what's good enough to move forward.
+I defined the product, test each build on my phone and write up what broke, and decide what's good enough to move forward.
 
 ---
 
