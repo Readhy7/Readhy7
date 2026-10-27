@@ -40,6 +40,37 @@ A nightly pipeline built with Claude Code and OpenRouter. It finds US sweepstake
 
 **My part:** product rules, architecture decisions (for example, keeping personal data separate from the shared catalog), the budget guardrails, and the QA checks.
 
+![RaffleReady's stats view: every rate is shown with the number it was divided by](images/raffleready-stats.jpg)
+
+The stats view counts only what was actually tracked, with no projections, and shows each rate next to its denominator. A "hit rate" over decided sweeps and one over all entered sweeps tell very different stories.
+
+---
+
+### Life Dashboard: a home screen that refreshes itself
+
+Nine single-purpose dashboards (calendar, inbox, reminders, kitchen inventory, weather and air quality, markets, news, local events, what to watch) behind one home page, built for a wall-mounted touchscreen.
+
+- A scheduled cloud agent regenerates every dashboard once a day and commits the results
+- The screen only displays static files, so if a data source fails, the last good version keeps showing
+- Each dashboard flags its own status (OK, Attention, Urgent, Stale) so problems are obvious at a glance
+
+![Life Dashboard home screen (personal tiles hidden)](images/life-dashboard.jpg)
+
+**My part:** deciding what each dashboard tracks and flags, and how it should look and behave on the wall screen.
+
+---
+
+### Bite: a calorie counter you just talk to
+
+Type or say what you ate ("2 eggs and sourdough toast with butter") and it logs calories and macros in one step. Real nutrition databases (USDA FoodData Central, Open Food Facts) provide the numbers; the AI only parses the meal and estimates portions. Pre-alpha, built for iPhone.
+
+- The meal parser is measured against a 110-case test set: 90% item-level accuracy, and meals filed to the right slot (breakfast, lunch, dinner, snack) 96.6% of the time
+- Prompt changes are re-scored against the same test set, so improvements are measured, not guessed
+
+![Bite's Today and Edit Item screens](images/bite-meal-logging.jpg)
+
+**My part:** the product definition, testing each build on my phone and writing up what broke, and deciding what's good enough to move forward.
+
 ---
 
 ### Corporate Climb: a PC typing game
