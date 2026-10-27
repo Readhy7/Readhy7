@@ -21,7 +21,7 @@ This is the workflow my B2B outreach runs on, built with OpenAI Codex. For each 
 
 I review every batch by hand before anything goes out.
 
-**My part:** I wrote the scoring rules and the program "expert" instructions the agents use, and I review the agents' output. I decide what gets sent.
+I wrote the scoring rules and the program "expert" instructions the agents use, and I review the agents' output. I decide what gets sent.
 
 *It runs on my employer's prospect data, so there's no public code or sample output.*
 
@@ -38,7 +38,7 @@ A nightly pipeline built with Claude Code and OpenRouter. It finds US sweepstake
 - Keeps personal details on my machine and out of the catalog
 - Leaves CAPTCHAs to a person; the software never solves them
 
-**My part:** product rules, architecture decisions (for example, keeping personal data separate from the shared catalog), the budget guardrails, and the QA checks.
+product rules, architecture decisions (for example, keeping personal data separate from the shared catalog), the budget guardrails, and the QA checks.
 
 ![RaffleReady's stats view: every rate is shown with the number it was divided by](images/raffleready-stats.jpg)
 
@@ -54,9 +54,9 @@ Nine single-purpose dashboards (calendar, inbox, reminders, kitchen inventory, w
 - The screen only displays static files, so if a data source fails, the last good version keeps showing
 - Each dashboard flags its own status (OK, Attention, Urgent, Stale) so problems are obvious at a glance
 
-![Life Dashboard home screen (personal tiles hidden)](images/life-dashboard.jpg)
+![Life Dashboard home screen (personal tiles hidden; sample kitchen item)](images/life-dashboard.jpg)
 
-**My part:** deciding what each dashboard tracks and flags, and how it should look and behave on the wall screen.
+deciding what each dashboard tracks and flags, and how it should look and behave on the wall screen.
 
 ---
 
@@ -67,9 +67,9 @@ Type or say what you ate ("2 eggs and sourdough toast with butter") and it logs 
 - The meal parser is measured against a 110-case test set: 90% item-level accuracy, and meals filed to the right slot (breakfast, lunch, dinner, snack) 96.6% of the time
 - Prompt changes are re-scored against the same test set, so improvements are measured, not guessed
 
-![Bite's Today and Edit Item screens](images/bite-meal-logging.jpg)
+![Bite: Today, Edit Item, and dark mode](images/bite-meal-logging.jpg)
 
-**My part:** the product definition, testing each build on my phone and writing up what broke, and deciding what's good enough to move forward.
+the product definition, testing each build on my phone and writing up what broke, and deciding what's good enough to move forward.
 
 ---
 
@@ -77,9 +77,11 @@ Type or say what you ate ("2 eggs and sourdough toast with butter") and it logs 
 
 A typing incremental game about climbing the corporate ladder. Yes, there's a sales-call minigame. It's unreleased and aimed at Steam.
 
-![Sales-call minigame in Corporate Climb](images/corporate-climb-sales-call.png)
+![Corporate Climb: answering mail at the desk while the phone rings](images/corporate-climb-desk.jpg)
 
-**My part:** I write the game design and the specs, playtest it, and decide what changes. Claude Code agents write and test all the code, including a balance simulator that checks the game's pacing math.
+![Corporate Climb: the Skill Tree](images/corporate-climb-skill-tree.jpg)
+
+I write the game design and the specs, playtest it, and decide what changes. Claude Code agents write and test all the code, including a balance simulator that checks the game's pacing math.
 
 ---
 
