@@ -77,9 +77,9 @@ I defined the product, test each build on my phone and write up what broke, and 
 
 A typing incremental game about climbing the corporate ladder. Yes, there's a sales-call minigame. It's unreleased and aimed at Steam.
 
-![Corporate Climb: answering mail at the desk while the phone rings](images/corporate-climb-desk.jpg)
+![Corporate Climb: CEO on day 6, mid-reply with an 858k WPM team and a ×16.6 combo](images/corporate-climb-ceo.jpg)
 
-![Corporate Climb: the Skill Tree](images/corporate-climb-skill-tree.jpg)
+![Corporate Climb: the pizza-party minigame on the office security cam](images/corporate-climb-pizza-party.jpg)
 
 I write the game design and the specs, playtest it, and decide what changes. Claude Code agents write and test all the code, including a balance simulator that checks the game's pacing math.
 
