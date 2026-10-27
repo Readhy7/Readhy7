@@ -81,6 +81,8 @@ A typing incremental game about climbing the corporate ladder. Yes, there's a sa
 
 ![Corporate Climb: the pizza-party minigame on the office security cam](images/corporate-climb-pizza-party.jpg)
 
+![Corporate Climb: Interplanetary Chairman, with the warp drive charging outside the window](images/corporate-climb-space.jpg)
+
 I write the game design and the specs, playtest it, and decide what changes. Claude Code agents write and test all the code, including a balance simulator that checks the game's pacing math.
 
 ---
