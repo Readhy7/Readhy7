@@ -6,7 +6,7 @@ My role in leading B2B sales for my UC Davis division with limited resources led
 
 I'm the division's only B2B seller. There's no SDR team doing research for me and no sales-engagement platform like Outreach or Apollo, and every hour spent building lists is an hour not spent talking to buyers. So I built the research and drafting work myself with AI agents, and kept the judgment calls (who's a fit, what gets sent) with me.
 
-The code stays private, so this page covers what each project does and the part I played.
+The code stays private, so this page covers what each project does and how I built it.
 
 ---
 
